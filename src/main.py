@@ -8,6 +8,7 @@ dir_path_static = "./static"
 dir_path_public = "./docs"
 
 
+
 def generate_pages_recursive(dir_path_content, template_path, dest_dir_path, basepath):
     for filename in os.listdir(dir_path_content):
         content_path = os.path.join(dir_path_content,filename)
